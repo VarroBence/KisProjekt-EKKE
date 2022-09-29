@@ -92,3 +92,7 @@ Töltse le az alkalmazást a Google áruházból, adja meg a szükséges engedé
 Amennyiben nem az áruházból kívánja telepíteni az alkalmazást, úgy engedélyezze készülékén az úgynevezett "Harmadik féltől származó tartalmakat" a beállításoknál!
 
 Miután települt az alkalmazás, futtassa azt!
+
+## 11. Karbantartási terv
+Az alkalmazás folyamatos üzemeltetése és karbantartása, mely magában foglalja a programhibák elhárítását, a belső igények változása miatti módosításokat, valamint a környezeti feltételek változása miatt megfogalmazott program-, illetve állomány módosítási igényeket. Ellenőrizni kell, hogy a jövőben kiadott Windows verziókkal kompatibilis-e az alkalmazás. Idő elteltével új opciókat kell hozzáadni a felülethez, hogy fent tartsuk az érdeklődési szintet.
+
