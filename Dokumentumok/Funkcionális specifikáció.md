@@ -5,3 +5,6 @@ Egy olyan alkalmazást fejlesztettünk, ki amelyre egy cég kért meg minket. Sz
 
 ## 2. Jelenlegi helyzet
 A megrendelő szeretné megnövelni a bevételét oly módon, hogy online is rendeléseket fogad, illetve azokat kiszállítja. Egy új alkalmazás előállítását rendelte meg, amely egy kávé automatára hasonlít. Ezen keresztül tudják a vásárlók kiválasztani, hogy mit szeretnének rendelni. Számos létező alkalmazást nézett meg a megrendelő, viszont egyik sem illett a cég profiljához, így amellett döntött, hogy egy teljesen új alkalmazás megrendelése miatt hozzánk fordul.
+
+## 3. Jelenlegi üzleti folyamatok modellje
+A mai világban, már a legtöbb cég rendelkezik online felülettel, ahol elérhetik a vásárlók a termékeiket. Sokkal kényelmesebbé és probléma mentesebbé teszi a vásárlást, valamit könnyebben elérhetőbbé teszi egyes termékek megvásárlását.
