@@ -12,3 +12,9 @@ Miután végzett vele a program kiirja az összeget, amit megpróbál levonni az
 Egy pénztárcát feltudunk tölteni pénzzel, amit ellehet majd költeni arra amit akarunk.
 A kávégép rendelkezik majd több variációval, és az alapján számolja ki az összeget, majd vonja le a pénztárcánkból.
 Nem lehet mindent kombinálni mindennel, hanem csak azokat a dolgokat, amiknek értelme is van.
+
+#### Funkcionális követelmény
+***
+Felhasználói funkció -  A felhasználó fel tud tölteni egy összeget, amivel később rendelkezhet.
+
+Ez után gombokat használva tudja kiválasztani, hogy mit szeretne elkészíttetni, majd a gép levonja az összeget, amennyiben lehetséges a variáció.
