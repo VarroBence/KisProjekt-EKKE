@@ -41,3 +41,5 @@ Fejlesztői eszközök:
 Visual Studio 2022.
 ## 7. Architekturális terv
 Az alkalmazásnak nincs szüksége adatbázis rendszerre, illetve keretrendszerre.
+## 8. Implementációs terv
+Windows forms / C#: Az alkalmazás felületét windows formsban, az alkalmazást működtető kódot C#-ban írjuk meg.
