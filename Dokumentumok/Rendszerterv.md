@@ -22,3 +22,10 @@ Nem funkcionális követelmények:
 A felhasználó nem tud egyszerre több kávét rendelni.
 ### Támogatott eszközök
 Asztali számítógép.
+## 5. Funkcionális terv
+### 5.1 Rendszerszereplők:
+Felhasználó
+### 5.2 Rendszerhasználati esetek és lefutásaik:
+Feltöltheti a digitális tárcáját.
+Kiválaszthat egy fajta kávét.
+A kávé mellé választhat cukrot/tejet.
