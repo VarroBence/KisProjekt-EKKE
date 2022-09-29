@@ -39,3 +39,5 @@ Az alkalmazás asztali számítógépre, Windows operációs rendszerre készül
 Nincsenek megvásárolt komponenseink.
 Fejlesztői eszközök:
 Visual Studio 2022.
+## 7. Architekturális terv
+Az alkalmazásnak nincs szüksége adatbázis rendszerre, illetve keretrendszerre.
