@@ -20,3 +20,9 @@ Felhasználó: A felhasználó fel tudja tölteni az elektronikus tárcáját, �
 
 ## 7. Képernyőterv
 ![Képernyőterv](Screenshot01.png)
+
+## 8. Forgatókönyv
+Futási időben kettő szereplő figyelhető meg.
+Az egyik maga az alkalmazás, ami várja az input-ot, ami alapján elkészíti az italt, majd ellenörzi, hogy a felhasználó rendelkezik e a szükséges egyenleggel.
+A másik szereplő a felhasználó, aki az ablakon elkhelyezett gombokkal testre tudja szabni az italát, és ha szükséges akkor az egyenlegét is feltudja tölteni.
+Nem megfelelő egyenleg esetén megszakítódik a folyamat és az alkalmazás felszólít az egyenleg feltöltésére.
