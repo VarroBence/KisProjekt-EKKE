@@ -18,3 +18,8 @@ Nem lehet mindent kombinálni mindennel, hanem csak azokat a dolgokat, amiknek �
 Felhasználói funkció -  A felhasználó fel tud tölteni egy összeget, amivel később rendelkezhet.
 
 Ez után gombokat használva tudja kiválasztani, hogy mit szeretne elkészíttetni, majd a gép levonja az összeget, amennyiben lehetséges a variáció.
+
+#### Jelenlegi üzleti folyamatok modellje
+***
+A programunk elősegíti az automatizációt egy ital összeállításában.
+Gombnyomásra elkészíti a gép azt az italt, amit a vásárló szeretne.
