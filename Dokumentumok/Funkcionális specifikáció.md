@@ -14,3 +14,6 @@ Azért hogy egyszerűbbé tegyük a vásárlók és eladók közötti interakci�
 
 ## 5. Követelménylista
 ![image](https://user-images.githubusercontent.com/78543866/193148703-8dcecec4-6dfd-46f8-a630-b26f20f6b648.png)
+
+## 6. Használati esetek
+Felhasználó: A felhasználó fel tudja tölteni az elektronikus tárcáját, így vásárláskor onnan lesz kifizetve a rendelés és nem kell készpénzzel fizetnie a futárnál. Ki tudja választani, hogy milyen kávét szeretne, valamint, hogy kér-e hozzá extra cukrot, vagy tejet a kávéba.
