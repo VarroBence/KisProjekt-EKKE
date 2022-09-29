@@ -12,3 +12,5 @@ Developer: Tóth Tamás, Varró Bence
 Tesztelő: Iván Ákos, Tóth Tamás, Varró Bence
 ### 2.3 Ütemterv:
 ![Ütemterv](https://user-images.githubusercontent.com/78543866/193145052-71ea9ab4-3964-4d29-8778-5d478561096c.PNG)
+## 3. Üzleti folyamatok modellje
+![Blank document](https://user-images.githubusercontent.com/78543866/193145603-2fa70d27-21b5-4322-a144-9bfaac7884a4.jpeg)
