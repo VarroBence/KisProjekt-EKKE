@@ -5,10 +5,13 @@ A rendszer célja, hogy a felhasználó egy virtuális módon szimulált kávéa
 ## 2. Projektterv
 ### 2.1 Projektszerepkörök, felelősségek:
 Product owner: Tóth Tamás
+
 Scrum masters: Varró Bence, Iván Ákos
 ### 2.2 Projektmunkások és felelősségek:
 Design: Iván Ákos
+
 Developer: Tóth Tamás, Varró Bence
+
 Tesztelő: Iván Ákos, Tóth Tamás, Varró Bence
 ### 2.3 Ütemterv:
 ![Ütemterv](https://user-images.githubusercontent.com/78543866/193145052-71ea9ab4-3964-4d29-8778-5d478561096c.PNG)
@@ -27,13 +30,19 @@ Asztali számítógép.
 Felhasználó
 ### 5.2 Rendszerhasználati esetek és lefutásaik:
 Feltöltheti a digitális tárcáját.
+
 Kiválaszthat egy fajta kávét.
+
 A kávé mellé választhat cukrot/tejet.
 ### 5.3 Menühierarchiák:
 Main ablak:
+
 Tárcafeltöltés.
+
 Kávé kiválasztás.
+
 Cukor/tej kiválasztás.
+
 ## 6. Fizikai környezet
 Az alkalmazás asztali számítógépre, Windows operációs rendszerre készül.
 Nincsenek megvásárolt komponenseink.
@@ -47,3 +56,4 @@ Windows forms / C#: Az alkalmazás felületét windows formsban, az alkalmazást
 A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata, ellenőrzése, a rendszer által megvalósított üzleti szolgáltatások verifikálása.
 Tesztelési eljárások
 Unit teszt: Ahol csak lehetséges, szükséges már a fejlesztési idő alatt is tesztelni, hogy a kódrészletek megfelelően működnek-e. Az alkalmazás akkor van kész, ha a tesztesetek hiba mentesen lefutnak minden esetben.
+Alfa teszt: A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző asztali gépekkel és laptopokkal való kompatibilitásának tesztelése. A tesztet a fejlesztők végzik.
