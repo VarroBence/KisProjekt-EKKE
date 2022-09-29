@@ -45,7 +45,9 @@ Cukor/tej kiválasztás.
 
 ## 6. Fizikai környezet
 Az alkalmazás asztali számítógépre, Windows operációs rendszerre készül.
+
 Nincsenek megvásárolt komponenseink.
+
 Fejlesztői eszközök:
 Visual Studio 2022.
 ## 7. Architekturális terv
@@ -54,6 +56,22 @@ Az alkalmazásnak nincs szüksége adatbázis rendszerre, illetve keretrendszerr
 Windows forms / C#: Az alkalmazás felületét windows formsban, az alkalmazást működtető kódot C#-ban írjuk meg.
 ## 9.Tesztterv
 A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata, ellenőrzése, a rendszer által megvalósított üzleti szolgáltatások verifikálása.
+
 Tesztelési eljárások
+
 Unit teszt: Ahol csak lehetséges, szükséges már a fejlesztési idő alatt is tesztelni, hogy a kódrészletek megfelelően működnek-e. Az alkalmazás akkor van kész, ha a tesztesetek hiba mentesen lefutnak minden esetben.
-Alfa teszt: A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző asztali gépekkel és laptopokkal való kompatibilitásának tesztelése. A tesztet a fejlesztők végzik.
+
+Alfa teszt: A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző asztali gépekkel és laptopokkal való kompatibilitásának tesztelése. A tesztet a fejlesztők végzik. Az eljárás sikeres, ha a különböző gépeken megfelelően működnek a különböző funkciók. A teszt időtartama egy hét.
+
+Beta teszt: Ezt a tesztet nem a fejlesztők végzik.
+
+Tesztelendő Windows rendszerek: Windows 10, vagy újabbak.
+
+Tesztelendő kijelző méretek: 1280x720 (minimum), 1366x768, 1920x1080.
+
+A tesztelés időtartama egy hét.
+
+A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a fejlesztőknek, probléma/hiba felmerülése esetén.
+
+Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. Sok hiba esetén a tesztelés ideje elhúzódhat plusz egy héttel.
+
