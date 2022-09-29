@@ -85,3 +85,10 @@ Ki kell tudni írnia a végösszeget.
 
 Megerősítés után képesnek kell lennie levonni a digitális pénztárca összegéből a végösszeget.
 
+## 10. Telepítési terv
+
+Töltse le az alkalmazást a Google áruházból, adja meg a szükséges engedélyeket és telepítse a programot!
+
+Amennyiben nem az áruházból kívánja telepíteni az alkalmazást, úgy engedélyezze készülékén az úgynevezett "Harmadik féltől származó tartalmakat" a beállításoknál!
+
+Miután települt az alkalmazás, futtassa azt!
