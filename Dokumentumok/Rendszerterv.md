@@ -45,3 +45,5 @@ Az alkalmazásnak nincs szüksége adatbázis rendszerre, illetve keretrendszerr
 Windows forms / C#: Az alkalmazás felületét windows formsban, az alkalmazást működtető kódot C#-ban írjuk meg.
 ## 9.Tesztterv
 A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata, ellenőrzése, a rendszer által megvalósított üzleti szolgáltatások verifikálása.
+Tesztelési eljárások
+Unit teszt: Ahol csak lehetséges, szükséges már a fejlesztési idő alatt is tesztelni, hogy a kódrészletek megfelelően működnek-e. Az alkalmazás akkor van kész, ha a tesztesetek hiba mentesen lefutnak minden esetben.
