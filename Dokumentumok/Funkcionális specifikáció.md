@@ -11,3 +11,6 @@ A mai világban, már a legtöbb cég rendelkezik online felülettel, ahol elér
 
 ## 4. Igényelt üzleti folyamatok modellje
 Azért hogy egyszerűbbé tegyük a vásárlók és eladók közötti interakciót, létrehozunk egy alkalmazást, ami a mai kornak megfelelően helyt tud állni az elektronikai világban. Az eladóknak egyszerűbb lesz nagyobb tömeget kiszolgálnia a rendelésekkel, így időt és munkaerőt takaríthat meg. A vásárlóknak is sokkal egyszerűbb lesz megrendelni az egyes kávékat, nem is kell elmenniük otthonról.
+
+## 5. Követelménylista
+![image](https://user-images.githubusercontent.com/78543866/193148703-8dcecec4-6dfd-46f8-a630-b26f20f6b648.png)
