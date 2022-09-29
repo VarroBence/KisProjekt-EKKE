@@ -46,7 +46,7 @@ Amennyiben rendelkezik az összeggel, akkor levonja az árat.
 
 #### Fogalomtár
 ***
-Drop-down menü - Legördülő lista
-Balance - Egyenleg
-Progress Bar - Az adott folyamat előrehaladottságát egy csíkon vizuálisan megmutatja
+Drop-down menü - Legördülő lista,<br>
+Balance - Egyenleg,<br>
+Progress Bar - Az adott folyamat előrehaladottságát egy csíkon vizuálisan megmutatja<br>
 
