@@ -44,4 +44,9 @@ Amennyiben rendelkezik az összeggel, akkor levonja az árat.
 |Felület | K5 |A végösszeg kiirása  |1.0| A felhasználónak kiirja a program, hogy mennyibe kerül az itala|
 |Modifikáció | K6 |Az összeg levonása  |1.0|A program levonja a megrendelés összegét a tárcából, amennyiben rendelkezik a megfelelő összeggel|
 
+#### Fogalomtár
+***
+Drop-down menü - Legördülő lista
+Balance - Egyenleg
+Progress Bar - Az adott folyamat előrehaladottságát egy csíkon vizuálisan megmutatja
 
