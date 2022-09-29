@@ -26,3 +26,7 @@ Futási időben kettő szereplő figyelhető meg.
 Az egyik maga az alkalmazás, ami várja az input-ot, ami alapján elkészíti az italt, majd ellenörzi, hogy a felhasználó rendelkezik e a szükséges egyenleggel.
 A másik szereplő a felhasználó, aki az ablakon elkhelyezett gombokkal testre tudja szabni az italát, és ha szükséges akkor az egyenlegét is feltudja tölteni.
 Nem megfelelő egyenleg esetén megszakítódik a folyamat és az alkalmazás felszólít az egyenleg feltöltésére.
+
+## 9. Fogalomszótár
+input - Bemenet, amit az alkalmazás vár a felhasználótól<br>
+online - Leggyakrabban arra használják, ha valami megtalálható az interneten vagy valaki fel van kapcsolódva az internetre.
