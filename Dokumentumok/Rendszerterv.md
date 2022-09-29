@@ -34,3 +34,8 @@ Main ablak:
 Tárcafeltöltés.
 Kávé kiválasztás.
 Cukor/tej kiválasztás.
+## 6. Fizikai környezet
+Az alkalmazás asztali számítógépre, Windows operációs rendszerre készül.
+Nincsenek megvásárolt komponenseink.
+Fejlesztői eszközök:
+Visual Studio 2022.
