@@ -10,3 +10,5 @@ Scrum masters: Varró Bence, Iván Ákos
 Design: Iván Ákos
 Developer: Tóth Tamás, Varró Bence
 Tesztelő: Iván Ákos, Tóth Tamás, Varró Bence
+### 2.3 Ütemterv:
+![Ütemterv](https://user-images.githubusercontent.com/78543866/193145052-71ea9ab4-3964-4d29-8778-5d478561096c.PNG)
