@@ -75,3 +75,13 @@ A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a fe
 
 Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. Sok hiba esetén a tesztelés ideje elhúzódhat plusz egy héttel.
 
+Tesztelendő funkciók
+
+Képesnek kell lennie digitális tárca feltöltésére a felhasználónak.
+
+Képesnek kell lennie kiválasztani egy adott kávé típust.
+
+Ki kell tudni írnia a végösszeget.
+
+Megerősítés után képesnek kell lennie levonni a digitális pénztárca összegéből a végösszeget.
+
