@@ -23,3 +23,10 @@ Ez után gombokat használva tudja kiválasztani, hogy mit szeretne elkészítte
 ***
 A programunk elősegíti az automatizációt egy ital összeállításában.
 Gombnyomásra elkészíti a gép azt az italt, amit a vásárló szeretne.
+
+#### Igényelt üzleti folyamatok
+***
+A felhasználó a fő oldalon látja az egyenlegét, és ha szeretné akkor tölthet fel hozzá összeget.
+A feltöltés mellett kitudja gomokkal választani, hogy mit szeretne inni. Felületen látja, hogy mik küzöl választhat, és egy gomb megnyomásával fizethet.
+Utánna a program kiirja, hogy mennyit kell fizetni, és hogyha nincsen annyi összeg a tárcában, akkor jelez a felhasználónak és megszakítja a folyamatot.
+Amennyiben rendelkezik az összeggel, akkor levonja az árat.
