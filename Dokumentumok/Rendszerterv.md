@@ -6,3 +6,7 @@ A rendszer célja, hogy a felhasználó egy virtuális módon szimulált kávéa
 ### 2.1 Projektszerepkörök, felelősségek:
 Product owner: Tóth Tamás
 Scrum masters: Varró Bence, Iván Ákos
+### 2.2 Projektmunkások és felelősségek:
+Design: Iván Ákos
+Developer: Tóth Tamás, Varró Bence
+Tesztelő: Iván Ákos, Tóth Tamás, Varró Bence
