@@ -43,3 +43,5 @@ Visual Studio 2022.
 Az alkalmazásnak nincs szüksége adatbázis rendszerre, illetve keretrendszerre.
 ## 8. Implementációs terv
 Windows forms / C#: Az alkalmazás felületét windows formsban, az alkalmazást működtető kódot C#-ban írjuk meg.
+## 9.Tesztterv
+A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata, ellenőrzése, a rendszer által megvalósított üzleti szolgáltatások verifikálása.
