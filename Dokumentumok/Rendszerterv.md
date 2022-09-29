@@ -29,3 +29,8 @@ Felhasználó
 Feltöltheti a digitális tárcáját.
 Kiválaszthat egy fajta kávét.
 A kávé mellé választhat cukrot/tejet.
+### 5.3 Menühierarchiák:
+Main ablak:
+Tárcafeltöltés.
+Kávé kiválasztás.
+Cukor/tej kiválasztás.
