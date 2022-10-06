@@ -15,3 +15,20 @@ D:\Tóth Tamás\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\refint\
 D:\Tóth Tamás\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\Kavegep.pdb
 D:\Tóth Tamás\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\Kavegep.genruntimeconfig.cache
 D:\Tóth Tamás\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\ref\Kavegep.dll
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\bin\Debug\net6.0-windows\Kavegep.exe
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\bin\Debug\net6.0-windows\Kavegep.deps.json
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\bin\Debug\net6.0-windows\Kavegep.runtimeconfig.json
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\bin\Debug\net6.0-windows\Kavegep.dll
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\bin\Debug\net6.0-windows\Kavegep.pdb
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\Kavegep.csproj.AssemblyReference.cache
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\Kavegep.Form1.resources
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\Kavegep.csproj.GenerateResource.cache
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\Kavegep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\Kavegep.AssemblyInfoInputs.cache
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\Kavegep.AssemblyInfo.cs
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\Kavegep.csproj.CoreCompileInputs.cache
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\Kavegep.dll
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\refint\Kavegep.dll
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\Kavegep.pdb
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\Kavegep.genruntimeconfig.cache
+C:\Users\Ákos\Documents\GitHub\KisProjekt-EKKE\Kavegep\Kavegep\obj\Debug\net6.0-windows\ref\Kavegep.dll
