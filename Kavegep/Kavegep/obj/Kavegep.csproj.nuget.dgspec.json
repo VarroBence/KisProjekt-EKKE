@@ -1,28 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ákos\\Documents\\GitHub\\KisProjekt-EKKE\\Kavegep\\Kavegep\\Kavegep.csproj": {}
+    "D:\\Tóth Tamás\\KisProjekt-EKKE\\Kavegep\\Kavegep\\Kavegep.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ákos\\Documents\\GitHub\\KisProjekt-EKKE\\Kavegep\\Kavegep\\Kavegep.csproj": {
+    "D:\\Tóth Tamás\\KisProjekt-EKKE\\Kavegep\\Kavegep\\Kavegep.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ákos\\Documents\\GitHub\\KisProjekt-EKKE\\Kavegep\\Kavegep\\Kavegep.csproj",
+        "projectUniqueName": "D:\\Tóth Tamás\\KisProjekt-EKKE\\Kavegep\\Kavegep\\Kavegep.csproj",
         "projectName": "Kavegep",
-        "projectPath": "C:\\Users\\Ákos\\Documents\\GitHub\\KisProjekt-EKKE\\Kavegep\\Kavegep\\Kavegep.csproj",
-        "packagesPath": "C:\\Users\\Ákos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ákos\\Documents\\GitHub\\KisProjekt-EKKE\\Kavegep\\Kavegep\\obj\\",
+        "projectPath": "D:\\Tóth Tamás\\KisProjekt-EKKE\\Kavegep\\Kavegep\\Kavegep.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Tóth Tamás\\KisProjekt-EKKE\\Kavegep\\Kavegep\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ákos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -49,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -61,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
