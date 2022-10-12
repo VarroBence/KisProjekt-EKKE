@@ -54,7 +54,7 @@
             this.label1.Size = new System.Drawing.Size(105, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Kávéautomata";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            //this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // coffeeDropdownMenu
             // 
@@ -70,7 +70,7 @@
             this.coffeeDropdownMenu.Name = "coffeeDropdownMenu";
             this.coffeeDropdownMenu.Size = new System.Drawing.Size(219, 28);
             this.coffeeDropdownMenu.TabIndex = 1;
-            this.coffeeDropdownMenu.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            //this.coffeeDropdownMenu.SelectedIndexChanged += new System.EventHandler(this.coffeeDropdownMenu_SelectedIndexChanged);
             // 
             // milkCheckBox
             // 
@@ -81,7 +81,7 @@
             this.milkCheckBox.TabIndex = 2;
             this.milkCheckBox.Text = "Tej (lehet nem kell)";
             this.milkCheckBox.UseVisualStyleBackColor = true;
-            this.milkCheckBox.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            //this.milkCheckBox.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // label2
             // 
@@ -100,7 +100,7 @@
             this.minusBtn.TabIndex = 4;
             this.minusBtn.Text = "-";
             this.minusBtn.UseVisualStyleBackColor = true;
-            this.minusBtn.Click += new System.EventHandler(this.button1_Click);
+            this.minusBtn.Click += new System.EventHandler(this.minusBtn_Click);
             // 
             // plusBtn
             // 
@@ -110,7 +110,7 @@
             this.plusBtn.TabIndex = 5;
             this.plusBtn.Text = "+";
             this.plusBtn.UseVisualStyleBackColor = true;
-            this.plusBtn.Click += new System.EventHandler(this.button2_Click);
+            this.plusBtn.Click += new System.EventHandler(this.plusBtn_Click);
             // 
             // cukorBar
             // 
@@ -118,7 +118,7 @@
             this.cukorBar.Name = "cukorBar";
             this.cukorBar.Size = new System.Drawing.Size(219, 29);
             this.cukorBar.TabIndex = 6;
-            this.cukorBar.Click += new System.EventHandler(this.progressBar1_Click);
+            //this.cukorBar.Click += new System.EventHandler(this.cukorBar_Click);
             // 
             // label3
             // 
@@ -128,7 +128,7 @@
             this.label3.Size = new System.Drawing.Size(31, 20);
             this.label3.TabIndex = 7;
             this.label3.Text = "Ár: ";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            //this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // priceTextBox
             // 
@@ -156,7 +156,7 @@
             this.label4.Size = new System.Drawing.Size(185, 20);
             this.label4.TabIndex = 10;
             this.label4.Text = "Bankkártya szimulátor(TM)";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            //this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -174,7 +174,7 @@
             this.balanceTextBox.ReadOnly = true;
             this.balanceTextBox.Size = new System.Drawing.Size(185, 27);
             this.balanceTextBox.TabIndex = 12;
-            this.balanceTextBox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            //this.balanceTextBox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label6
             // 
