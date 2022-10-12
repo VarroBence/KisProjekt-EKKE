@@ -2,14 +2,14 @@ namespace Kavegep
 {
     public partial class Kavegep : Form
     {
-        public static int balance = 0;
+        private static int balance = 0; //Nem tudom hogy ez korrekt e így
         public Kavegep()
         {
             InitializeComponent();
-            sugarBar.Maximum = 6;
+            sugarBar.Maximum = 4;
             sugarBar.Minimum = 0;
-            sugarBar.Value = 3;
-            balanceTextBox.Text = balance.ToString();
+            sugarBar.Value = 2;
+            balanceTextBox.Text = balance.ToString() + " Ft"; //Ha változtatod a balance-ot rakj egy ilyet utána
         }
         private void minusBtn_Click(object sender, EventArgs e)
         {
@@ -21,11 +21,6 @@ namespace Kavegep
         {
             sugarBar.Step = 1;
             sugarBar.PerformStep();
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
