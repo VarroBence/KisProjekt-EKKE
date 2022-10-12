@@ -178,7 +178,6 @@
             this.label6.Size = new System.Drawing.Size(72, 20);
             this.label6.TabIndex = 13;
             this.label6.Text = "Feltöltés: ";
-            
             // 
             // depositTextBox
             // 
@@ -186,6 +185,7 @@
             this.depositTextBox.Name = "depositTextBox";
             this.depositTextBox.Size = new System.Drawing.Size(261, 27);
             this.depositTextBox.TabIndex = 14;
+            this.depositTextBox.TextChanged += new System.EventHandler(this.depositTextBox_TextChanged);
             // 
             // depositBtn
             // 
@@ -195,6 +195,7 @@
             this.depositBtn.TabIndex = 15;
             this.depositBtn.Text = "Feltöltés";
             this.depositBtn.UseVisualStyleBackColor = true;
+            this.depositBtn.Click += new System.EventHandler(this.depositBtn_Click);
             // 
             // Kavegep
             // 
