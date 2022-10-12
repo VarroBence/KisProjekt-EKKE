@@ -3,6 +3,13 @@ namespace Kavegep
     public partial class Kavegep : Form
     {
         private int balance = 0; //Nem tudom hogy ez korrekt e így
+        private int pressoAr = 250;
+        private int hosszuKaveAr = 300;
+        private int ristAr = 200;
+        private int americanoAr = 350;
+        private int Tea = 150;
+        private int cukorAr = 50;
+        private int tejAr = 100;
         public Kavegep()
         {
             InitializeComponent();
