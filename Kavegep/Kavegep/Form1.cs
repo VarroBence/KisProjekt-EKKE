@@ -2,12 +2,14 @@ namespace Kavegep
 {
     public partial class Form1 : Form
     {
+        int balance = 0;
         public Form1()
         {
             InitializeComponent();
             progressBar1.Maximum = 6;
             progressBar1.Minimum = 0;
             progressBar1.Value = 3;
+            textBox2.Text = balance.ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)

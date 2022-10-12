@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\Eqlips\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Tóth Tamás\\KisProjekt-EKKE\\Kavegep\\Kavegep\\Kavegep.csproj",
+      "projectUniqueName": "C:\\Users\\Eqlips\\Desktop\\git\\KisProjekt-EKKE\\Kavegep\\Kavegep\\Kavegep.csproj",
       "projectName": "Kavegep",
-      "projectPath": "D:\\Tóth Tamás\\KisProjekt-EKKE\\Kavegep\\Kavegep\\Kavegep.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Tóth Tamás\\KisProjekt-EKKE\\Kavegep\\Kavegep\\obj\\",
+      "projectPath": "C:\\Users\\Eqlips\\Desktop\\git\\KisProjekt-EKKE\\Kavegep\\Kavegep\\Kavegep.csproj",
+      "packagesPath": "C:\\Users\\Eqlips\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eqlips\\Desktop\\git\\KisProjekt-EKKE\\Kavegep\\Kavegep\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Eqlips\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
