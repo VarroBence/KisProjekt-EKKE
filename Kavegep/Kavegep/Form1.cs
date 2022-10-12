@@ -41,5 +41,10 @@ namespace Kavegep
             progressBar1.Step = 1;
             progressBar1.PerformStep();
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
