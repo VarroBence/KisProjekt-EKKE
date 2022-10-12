@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.coffeeDropdownMenu = new System.Windows.Forms.ComboBox();
+            this.milkCheckBox = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.minusBtn = new System.Windows.Forms.Button();
+            this.plusBtn = new System.Windows.Forms.Button();
+            this.cukorBar = new System.Windows.Forms.ProgressBar();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.priceTextBox = new System.Windows.Forms.TextBox();
+            this.payBtn = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.balanceTextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.depositTextBox = new System.Windows.Forms.TextBox();
+            this.depositBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -56,31 +56,32 @@
             this.label1.Text = "Kávéautomata";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // comboBox1
+            // coffeeDropdownMenu
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.coffeeDropdownMenu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.coffeeDropdownMenu.FormattingEnabled = true;
+            this.coffeeDropdownMenu.Items.AddRange(new object[] {
             "Presso Kávé",
             "Hosszú Kávé",
             "Ristretto",
             "Americano",
             "Tea"});
-            this.comboBox1.Location = new System.Drawing.Point(26, 61);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(219, 28);
-            this.comboBox1.TabIndex = 1;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.coffeeDropdownMenu.Location = new System.Drawing.Point(26, 61);
+            this.coffeeDropdownMenu.Name = "coffeeDropdownMenu";
+            this.coffeeDropdownMenu.Size = new System.Drawing.Size(219, 28);
+            this.coffeeDropdownMenu.TabIndex = 1;
+            this.coffeeDropdownMenu.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // checkBox1
+            // milkCheckBox
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(26, 96);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(157, 24);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "Tej (lehet nem kell)";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.milkCheckBox.AutoSize = true;
+            this.milkCheckBox.Location = new System.Drawing.Point(26, 96);
+            this.milkCheckBox.Name = "milkCheckBox";
+            this.milkCheckBox.Size = new System.Drawing.Size(157, 24);
+            this.milkCheckBox.TabIndex = 2;
+            this.milkCheckBox.Text = "Tej (lehet nem kell)";
+            this.milkCheckBox.UseVisualStyleBackColor = true;
+            this.milkCheckBox.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // label2
             // 
@@ -91,32 +92,33 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Cukor: ";
             // 
-            // button1
+            // minusBtn
             // 
-            this.button1.Location = new System.Drawing.Point(26, 203);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 29);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "-";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.minusBtn.Location = new System.Drawing.Point(26, 203);
+            this.minusBtn.Name = "minusBtn";
+            this.minusBtn.Size = new System.Drawing.Size(105, 29);
+            this.minusBtn.TabIndex = 4;
+            this.minusBtn.Text = "-";
+            this.minusBtn.UseVisualStyleBackColor = true;
+            this.minusBtn.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // plusBtn
             // 
-            this.button2.Location = new System.Drawing.Point(137, 203);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 29);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "+";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.plusBtn.Location = new System.Drawing.Point(137, 203);
+            this.plusBtn.Name = "plusBtn";
+            this.plusBtn.Size = new System.Drawing.Size(107, 29);
+            this.plusBtn.TabIndex = 5;
+            this.plusBtn.Text = "+";
+            this.plusBtn.UseVisualStyleBackColor = true;
+            this.plusBtn.Click += new System.EventHandler(this.button2_Click);
             // 
-            // progressBar1
+            // cukorBar
             // 
-            this.progressBar1.Location = new System.Drawing.Point(26, 168);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(219, 29);
-            this.progressBar1.TabIndex = 6;
+            this.cukorBar.Location = new System.Drawing.Point(26, 168);
+            this.cukorBar.Name = "cukorBar";
+            this.cukorBar.Size = new System.Drawing.Size(219, 29);
+            this.cukorBar.TabIndex = 6;
+            this.cukorBar.Click += new System.EventHandler(this.progressBar1_Click);
             // 
             // label3
             // 
@@ -128,23 +130,23 @@
             this.label3.Text = "Ár: ";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // textBox1
+            // priceTextBox
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(56, 263);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(189, 27);
-            this.textBox1.TabIndex = 8;
+            this.priceTextBox.Enabled = false;
+            this.priceTextBox.Location = new System.Drawing.Point(56, 263);
+            this.priceTextBox.Name = "priceTextBox";
+            this.priceTextBox.ReadOnly = true;
+            this.priceTextBox.Size = new System.Drawing.Size(189, 27);
+            this.priceTextBox.TabIndex = 8;
             // 
-            // button3
+            // payBtn
             // 
-            this.button3.Location = new System.Drawing.Point(151, 296);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(94, 29);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Fizetés";
-            this.button3.UseVisualStyleBackColor = true;
+            this.payBtn.Location = new System.Drawing.Point(151, 296);
+            this.payBtn.Name = "payBtn";
+            this.payBtn.Size = new System.Drawing.Size(94, 29);
+            this.payBtn.TabIndex = 9;
+            this.payBtn.Text = "Fizetés";
+            this.payBtn.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -165,14 +167,14 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Egyenleg: ";
             // 
-            // textBox2
+            // balanceTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(443, 59);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(185, 27);
-            this.textBox2.TabIndex = 12;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.balanceTextBox.Location = new System.Drawing.Point(443, 59);
+            this.balanceTextBox.Name = "balanceTextBox";
+            this.balanceTextBox.ReadOnly = true;
+            this.balanceTextBox.Size = new System.Drawing.Size(185, 27);
+            this.balanceTextBox.TabIndex = 12;
+            this.balanceTextBox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label6
             // 
@@ -183,42 +185,42 @@
             this.label6.TabIndex = 13;
             this.label6.Text = "Feltöltés: ";
             // 
-            // textBox3
+            // depositTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(368, 132);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(261, 27);
-            this.textBox3.TabIndex = 14;
+            this.depositTextBox.Location = new System.Drawing.Point(368, 132);
+            this.depositTextBox.Name = "depositTextBox";
+            this.depositTextBox.Size = new System.Drawing.Size(261, 27);
+            this.depositTextBox.TabIndex = 14;
             // 
-            // button4
+            // depositBtn
             // 
-            this.button4.Location = new System.Drawing.Point(535, 168);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(94, 29);
-            this.button4.TabIndex = 15;
-            this.button4.Text = "Feltöltés";
-            this.button4.UseVisualStyleBackColor = true;
+            this.depositBtn.Location = new System.Drawing.Point(535, 168);
+            this.depositBtn.Name = "depositBtn";
+            this.depositBtn.Size = new System.Drawing.Size(94, 29);
+            this.depositBtn.TabIndex = 15;
+            this.depositBtn.Text = "Feltöltés";
+            this.depositBtn.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(713, 365);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.depositBtn);
+            this.Controls.Add(this.depositTextBox);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.balanceTextBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.payBtn);
+            this.Controls.Add(this.priceTextBox);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.cukorBar);
+            this.Controls.Add(this.plusBtn);
+            this.Controls.Add(this.minusBtn);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.milkCheckBox);
+            this.Controls.Add(this.coffeeDropdownMenu);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
@@ -231,20 +233,20 @@
         #endregion
 
         private Label label1;
-        private ComboBox comboBox1;
-        private CheckBox checkBox1;
+        private ComboBox coffeeDropdownMenu;
+        private CheckBox milkCheckBox;
         private Label label2;
-        private Button button1;
-        private Button button2;
-        private ProgressBar progressBar1;
+        private Button minusBtn;
+        private Button plusBtn;
+        private ProgressBar cukorBar;
         private Label label3;
-        private TextBox textBox1;
-        private Button button3;
+        private TextBox priceTextBox;
+        private Button payBtn;
         private Label label4;
         private Label label5;
-        private TextBox textBox2;
+        private TextBox balanceTextBox;
         private Label label6;
-        private TextBox textBox3;
-        private Button button4;
+        private TextBox depositTextBox;
+        private Button depositBtn;
     }
 }

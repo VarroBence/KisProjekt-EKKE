@@ -5,9 +5,9 @@ namespace Kavegep
         public Form1()
         {
             InitializeComponent();
-            progressBar1.Maximum = 6;
-            progressBar1.Minimum = 0;
-            progressBar1.Value = 3;
+            cukorBar.Maximum = 6;
+            cukorBar.Minimum = 0;
+            cukorBar.Value = 3;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -32,17 +32,27 @@ namespace Kavegep
 
         private void button1_Click(object sender, EventArgs e)
         {
-            progressBar1.Step = -1;
-            progressBar1.PerformStep();
+            cukorBar.Step = -1;
+            cukorBar.PerformStep();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            progressBar1.Step = 1;
-            progressBar1.PerformStep();
+            cukorBar.Step = 1;
+            cukorBar.PerformStep();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
 
         }
