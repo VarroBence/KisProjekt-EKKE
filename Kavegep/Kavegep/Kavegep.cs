@@ -21,6 +21,43 @@ namespace Kavegep
             sugarBar.Value = 2;
             balanceTextBox.Text = balance.ToString() + " Ft"; //Ha változtatod a balance-ot rakj egy ilyet utána
 
+            
+        }
+        private void minusBtn_Click(object sender, EventArgs e)
+        {
+            sugarBar.Step = -1;
+            sugarBar.PerformStep();
+        }
+
+        private void plusBtn_Click(object sender, EventArgs e)
+        {
+            sugarBar.Step = 1;
+            sugarBar.PerformStep();
+        }
+
+        private void depositTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void depositBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                balance += int.Parse(depositTextBox.Text);
+                balanceTextBox.Text = balance.ToString() + " Ft";
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Csak egész számot adhat meg!");
+            }
+
+
+            depositTextBox.Clear();
+        }
+
+        private void payBtn_Click(object sender, EventArgs e)
+        {
             //Végösszeg kiszámítás
             if (coffeeDropdownMenu.Text == "Presso Kávé")
             {
@@ -69,42 +106,8 @@ namespace Kavegep
                 default:
                     break;
             }
-        }
-        private void minusBtn_Click(object sender, EventArgs e)
-        {
-            sugarBar.Step = -1;
-            sugarBar.PerformStep();
-        }
-
-        private void plusBtn_Click(object sender, EventArgs e)
-        {
-            sugarBar.Step = 1;
-            sugarBar.PerformStep();
-        }
-
-        private void depositTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void depositBtn_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                balance += int.Parse(depositTextBox.Text);
-                balanceTextBox.Text = balance.ToString() + " Ft";
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Csak egész számot adhat meg!");
-            }
 
 
-            depositTextBox.Clear();
-        }
-
-        private void payBtn_Click(object sender, EventArgs e)
-        {
             priceTextBox.Text = total.ToString() + " Ft";
             MessageBox.Show("A végösszeg: " + priceTextBox.Text);
             priceTextBox.Clear();
