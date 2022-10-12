@@ -142,6 +142,7 @@
             this.payBtn.TabIndex = 9;
             this.payBtn.Text = "Fizetés";
             this.payBtn.UseVisualStyleBackColor = true;
+            this.payBtn.Click += new System.EventHandler(this.payBtn_Click);
             // 
             // label4
             // 

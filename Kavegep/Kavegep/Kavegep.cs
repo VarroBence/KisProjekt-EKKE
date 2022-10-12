@@ -2,14 +2,17 @@ namespace Kavegep
 {
     public partial class Kavegep : Form
     {
+        #region Árak fixálása
         private int balance = 0; //Nem tudom hogy ez korrekt e így
+        private int total = 0;
         private int pressoAr = 250;
         private int hosszuKaveAr = 300;
         private int ristAr = 200;
         private int americanoAr = 350;
-        private int Tea = 150;
-        private int cukorAr = 50;
-        private int tejAr = 100;
+        private int teaAr = 150;
+        private int tejAr = 50;
+        #endregion
+
         public Kavegep()
         {
             InitializeComponent();
@@ -17,6 +20,55 @@ namespace Kavegep
             sugarBar.Minimum = 0;
             sugarBar.Value = 2;
             balanceTextBox.Text = balance.ToString() + " Ft"; //Ha változtatod a balance-ot rakj egy ilyet utána
+
+            //Végösszeg kiszámítás
+            if (coffeeDropdownMenu.Text == "Presso Kávé")
+            {
+                total += pressoAr;
+            }
+            else if (coffeeDropdownMenu.Text == "Hosszú Kávé")
+            {
+                total += hosszuKaveAr;
+            }
+            else if (coffeeDropdownMenu.Text == "Ristretto")
+            {
+                total += ristAr;
+            }
+            else if (coffeeDropdownMenu.Text == "Americano")
+            {
+                total += americanoAr;
+            }
+            else
+            {
+                total += teaAr;
+            }
+
+            if (milkCheckBox.Checked)
+            {
+                total += tejAr;
+            }
+
+            switch (sugarBar.Value)
+            {
+                case 1:
+                    total += 50;
+                    break;
+
+                case 2:
+                    total += 75;
+                    break;
+
+                case 3:
+                    total += 100;
+                    break;
+
+                case 4:
+                    total += 125;
+                    break;
+
+                default:
+                    break;
+            }
         }
         private void minusBtn_Click(object sender, EventArgs e)
         {
@@ -49,6 +101,13 @@ namespace Kavegep
 
 
             depositTextBox.Clear();
+        }
+
+        private void payBtn_Click(object sender, EventArgs e)
+        {
+            priceTextBox.Text = total.ToString() + " Ft";
+            MessageBox.Show("A végösszeg: " + priceTextBox.Text);
+            priceTextBox.Clear();
         }
     }
 }
