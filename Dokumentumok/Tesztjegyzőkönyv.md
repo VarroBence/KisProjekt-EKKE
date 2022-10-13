@@ -20,11 +20,12 @@
 
 **Tesztelő:** Tóth Tamás
 
-**Tesztelés dátuma:** 2022.október.12.
+**Tesztelés dátuma:** 2022.október.13.
 
 | Tesztszám | Rövid leírás                     | Várt eredmény                                                                   | Eredmény                                                                       | Megjegyzés                |
 |-----------|----------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------|
 | Teszt #01 | Helytelen adat bevitele a "Feltöltés" mezőbe | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak, hogy mi a gond. | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak, hogy mi a gond.| Nem találtam problémát.   |
 | Teszt #02 | A pénztárca feltöltése nélkül való fizetés. | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak a problémát.     | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak a problémát. | Nem találtam problémát. |
 | Teszt #03 | "Kávéautomata" mezőben nem választok ki kávét és úgy szeretne fizetni | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak a problémát. |Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak a problémát. | Nem találtam problémát. |
+| Teszt #04 | Szöveg bevitele a "Feltöltés" mezőbe | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak, hogy mi a gond. | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak, hogy mi a gond. | Nem találtam problémát. |
 | Teszt #XX | ... | ... | ... | ... |
