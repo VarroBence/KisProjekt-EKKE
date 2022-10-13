@@ -1,8 +1,8 @@
-namespace Kavegep
+Ôªønamespace Kavegep
 {
     public partial class Kavegep : Form
     {
-        #region ¡rak fix·l·sa
+        #region √Årak fix√°l√°sa
         private int balance = 0;
         private int total = 0;
         private int elozoAr = 0;
@@ -22,7 +22,7 @@ namespace Kavegep
             sugarBar.Maximum = 4;
             sugarBar.Minimum = 0;
             sugarBar.Value = 2;
-            balanceTextBox.Text = balance.ToString() + " Ft"; //Ha v·ltoztatod a balance-ot rakj egy ilyet ut·na
+            balanceTextBox.Text = balance.ToString() + " Ft"; //Ha v√°ltoztatod a balance-ot rakj egy ilyet ut√°na
             priceTextBox.Text = total.ToString() + " Ft";
 
         }
@@ -31,12 +31,12 @@ namespace Kavegep
         {
             total -= elozoAr;
 
-            if (coffeeDropdownMenu.Text == "Presso K·vÈ")
+            if (coffeeDropdownMenu.Text == "Presso K√°v√©")
             {
                 total += pressoAr;
                 elozoAr = pressoAr;
             }
-            else if (coffeeDropdownMenu.Text == "Hossz˙ K·vÈ")
+            else if (coffeeDropdownMenu.Text == "Hossz√∫ K√°v√©")
             {
                 total += hosszuKaveAr;
                 elozoAr = hosszuKaveAr;
@@ -107,7 +107,7 @@ namespace Kavegep
             }
             catch (Exception)
             {
-                MessageBox.Show("Csak egÈsz sz·mot adhat meg!");
+                MessageBox.Show("Csak eg√©sz sz√°mot adhat meg!");
             }
 
 
@@ -118,11 +118,14 @@ namespace Kavegep
         {
             if (balance >= total)
             {
-                MessageBox.Show("EgÈszÈgÈre!");
+                MessageBox.Show("Eg√©sz√©g√©re!");
                 priceTextBox.Clear();
+                balance -= total;
+                balanceTextBox.Text = balance.ToString() + " Ft";
+                total = 0;
             }
             else
-                MessageBox.Show("Nincs megfelel? egyenleg!"); 
+                MessageBox.Show("Nincs megfelel≈ë egyenleg!"); 
         }
     }
 }
