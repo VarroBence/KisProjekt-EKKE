@@ -20,8 +20,8 @@ namespace Kavegep
             sugarBar.Minimum = 0;
             sugarBar.Value = 2;
             balanceTextBox.Text = balance.ToString() + " Ft"; //Ha változtatod a balance-ot rakj egy ilyet utána
+            priceTextBox.Text = total.ToString() + " Ft";
 
-            
         }
         private void minusBtn_Click(object sender, EventArgs e)
         {
@@ -34,12 +34,6 @@ namespace Kavegep
             sugarBar.Step = 1;
             sugarBar.PerformStep();
         }
-
-        private void depositTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void depositBtn_Click(object sender, EventArgs e)
         {
             try

@@ -75,9 +75,10 @@
             this.milkCheckBox.AutoSize = true;
             this.milkCheckBox.Location = new System.Drawing.Point(56, 104);
             this.milkCheckBox.Name = "milkCheckBox";
-            this.milkCheckBox.Size = new System.Drawing.Size(157, 24);
+            this.milkCheckBox.Size = new System.Drawing.Size(50, 24);
             this.milkCheckBox.TabIndex = 2;
-            this.milkCheckBox.Text = "Tej (lehet nem kell)";
+            this.milkCheckBox.Text = "Tej";
+            this.milkCheckBox.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.milkCheckBox.UseVisualStyleBackColor = true;
             // 
             // label2
@@ -133,6 +134,7 @@
             this.priceTextBox.ReadOnly = true;
             this.priceTextBox.Size = new System.Drawing.Size(189, 27);
             this.priceTextBox.TabIndex = 8;
+            this.priceTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // payBtn
             // 
@@ -186,7 +188,6 @@
             this.depositTextBox.Name = "depositTextBox";
             this.depositTextBox.Size = new System.Drawing.Size(261, 27);
             this.depositTextBox.TabIndex = 14;
-            this.depositTextBox.TextChanged += new System.EventHandler(this.depositTextBox_TextChanged);
             // 
             // depositBtn
             // 
