@@ -9,12 +9,12 @@ Miután végzett vele a program, kiirja az összeget, amit megpróbál levonni a
 
 ## 2. Jelenlegi rendszer
 ***
-A megrendelőnek van egy kávézója és ami modernizálni szeretne azzal, hogy ne csak helyben, hanem online is lehessen rendeléseket leadni, és mi erre keresünk megoldást.
+A megrendelőnek van egy kávézója és modernizálni szeretné azzal, hogy ne csak helyben, hanem online is lehessen rendeléseket leadni, és mi erre keresünk megoldást.
 
 
 ## 3. Vágyálom rendszer
 ***
-Egy pénztárcát feltudunk tölteni pénzzel, amit ellehet majd költeni arra amit akarunk.
+Egy pénztárcát feltudunk tölteni pénzzel, amit ellehet majd költeni arra amit szeretnénk.
 A kávégép rendelkezik majd több variációval, és az alapján számolja ki az összeget, majd vonja le a pénztárcánkból.
 Nem lehet mindent kombinálni mindennel, hanem csak azokat a dolgokat, amiknek értelme is van.
 
@@ -33,8 +33,8 @@ Gombnyomásra elkészíti a gép azt az italt, amit a vásárló szeretne.
 ## 6. Igényelt üzleti folyamatok
 ***
 A felhasználó a fő oldalon látja az egyenlegét, és ha szeretné akkor tölthet fel hozzá összeget.
-A feltöltés mellett kitudja gomokkal választani, hogy mit szeretne inni. Felületen látja, hogy mik küzöl választhat, és egy gomb megnyomásával fizethet.
-Utánna a program kiirja, hogy mennyit kell fizetni, és hogyha nincsen annyi összeg a tárcában, akkor jelez a felhasználónak és megszakítja a folyamatot.
+A feltöltés mellett kitudja gomokkal választani, hogy mit szeretne inni. Felületen látja, hogy mik közül választhat, és egy gomb megnyomásával fizethet.
+Utánna a program kiírja, hogy mennyit kell fizetni, és ha nincs elegendő összeg a tárcában, akkor jelez a felhasználónak és megszakítja a folyamatot.
 Amennyiben rendelkezik az összeggel, akkor levonja az árat.
 
 
