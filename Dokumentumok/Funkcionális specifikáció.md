@@ -20,6 +20,10 @@ Felhasználó: A felhasználó fel tudja tölteni az elektronikus tárcáját, �
 
 ## 7. Képernyőterv
 ![Képernyőterv](Screenshot01.png)
+<br>V2<br>
+
+![image](https://user-images.githubusercontent.com/103049058/195596884-57bd0ced-ec68-4aa2-9574-74c879c4d68c.png)
+
 
 ## 8. Forgatókönyv
 Futási időben kettő szereplő figyelhető meg.
@@ -28,5 +32,6 @@ A másik szereplő a felhasználó, aki az ablakon elkhelyezett gombokkal testre
 Nem megfelelő egyenleg esetén megszakítódik a folyamat és az alkalmazás felszólít az egyenleg feltöltésére.
 
 ## 9. Fogalomszótár
-input - Bemenet, amit az alkalmazás vár a felhasználótól<br>
+input - Bemenet, amit az alkalmazás vár a felhasználótól<br> 
 online - Leggyakrabban arra használják, ha valami megtalálható az interneten vagy valaki fel van kapcsolódva az internetre.
+felhasználók - Azok a személyek, akiknek létre lett hozva egy alkalmazás és ők használják azt.
