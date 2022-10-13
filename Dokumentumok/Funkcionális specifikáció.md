@@ -28,5 +28,6 @@ A másik szereplő a felhasználó, aki az ablakon elkhelyezett gombokkal testre
 Nem megfelelő egyenleg esetén megszakítódik a folyamat és az alkalmazás felszólít az egyenleg feltöltésére.
 
 ## 9. Fogalomszótár
-input - Bemenet, amit az alkalmazás vár a felhasználótól<br>
+input - Bemenet, amit az alkalmazás vár a felhasználótól<br> 
 online - Leggyakrabban arra használják, ha valami megtalálható az interneten vagy valaki fel van kapcsolódva az internetre.
+felhasználók - Azok a személyek, akiknek létre lett hozva egy alkalmazás és ők használják azt.
