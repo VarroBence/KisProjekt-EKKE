@@ -43,9 +43,9 @@ Amennyiben rendelkezik az összeggel, akkor levonja az árat.
 
 | Modul      | ID         | Név  |v. |  Kifejtés|
 | ------------- |:-------------:| -----:|-|--|
-| Felület   | K1 | Balance kiirása |1.0| A felhasználó látja a feltöltött egyenlegét|
-|Modifikáció | K2 | Balance feltöltése  |1.0| A felhasználó feltud tölteni összeget a tárcájába|
-| Felület| K3 | Ital kiválasztása  | 1.0| A felhasználó kitudja választani, hogy milyen jellegű italt szeretne választani|
+| Felület   | K1 | Balance kiírása |1.0| A felhasználó látja a feltöltött egyenlegét|
+|Modifikáció | K2 | Balance feltöltése  |1.0| A felhasználó fel tud tölteni összeget a tárcájába|
+| Felület| K3 | Ital kiválasztása  | 1.0| A felhasználó ki tudja választani, hogy milyen jellegű italt szeretne választani|
 | Felület| K4 | Cukor mennyiség kiválasztása  |1.0|A felhasználó + / - gombokkal kitudja választani hogy mennyi cukrot szeretne, és ezt a mennyiséget egy progress báron látja|
 |Felület | K5 |A végösszeg kiirása  |1.0| A felhasználónak kiirja a program, hogy mennyibe kerül az itala|
 |Modifikáció | K6 |Az összeg levonása  |1.0|A program levonja a megrendelés összegét a tárcából, amennyiben rendelkezik a megfelelő összeggel|
