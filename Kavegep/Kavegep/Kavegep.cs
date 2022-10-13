@@ -121,7 +121,11 @@
 
         private void payBtn_Click(object sender, EventArgs e)
         {
-            if (balance >= total)
+            if(coffeeDropdownMenu.Text == "")
+            {
+                MessageBox.Show("Nincs kávé kiválasztva!");
+            }
+            else if (balance >= total)
             {
                 MessageBox.Show("Egészégére!");
                 priceTextBox.Clear();
