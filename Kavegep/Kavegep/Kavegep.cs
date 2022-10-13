@@ -27,30 +27,32 @@ namespace Kavegep
 
         private void coffeeDropdownMenu_SelectionChangeCommitted(object sender, EventArgs e)
         {
-            
+            total -= elozoAr;
 
             if (coffeeDropdownMenu.Text == "Presso Kávé")
             {
                 total += pressoAr;
-                
+                elozoAr = pressoAr;
             }
             else if (coffeeDropdownMenu.Text == "Hosszú Kávé")
             {
                 total += hosszuKaveAr;
-                
+                elozoAr = hosszuKaveAr;
             }
             else if (coffeeDropdownMenu.Text == "Ristretto")
             {
                 total += ristAr;
-
+                elozoAr = ristAr;
             }
             else if (coffeeDropdownMenu.Text == "Americano")
             {
                 total += americanoAr;
+                elozoAr = americanoAr;
             }
             else
             {
                 total += teaAr;
+                elozoAr = teaAr;
             }
             priceTextBox.Text = total.ToString() + " Ft";
         }
