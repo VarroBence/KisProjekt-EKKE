@@ -12,6 +12,7 @@ namespace Kavegep
         private int americanoAr = 350;
         private int teaAr = 150;
         private int tejAr = 50;
+        private int cukorAr = 10;
         #endregion
 
         public Kavegep()
@@ -74,12 +75,16 @@ namespace Kavegep
         {
             sugarBar.Step = -1;
             sugarBar.PerformStep();
+            total -= cukorAr;
+            priceTextBox.Text = total.ToString() + " Ft";
         }
 
         private void plusBtn_Click(object sender, EventArgs e)
         {
             sugarBar.Step = 1;
             sugarBar.PerformStep();
+            total += cukorAr;
+            priceTextBox.Text = total.ToString() + " Ft";
         }
         private void depositBtn_Click(object sender, EventArgs e)
         {
@@ -99,28 +104,6 @@ namespace Kavegep
 
         private void payBtn_Click(object sender, EventArgs e)
         {
-            //Végösszeg kiszámítás
-            if (coffeeDropdownMenu.Text == "Presso Kávé")
-            {
-                total += pressoAr;
-            }
-            else if (coffeeDropdownMenu.Text == "Hosszú Kávé")
-            {
-                total += hosszuKaveAr;
-            }
-            else if (coffeeDropdownMenu.Text == "Ristretto")
-            {
-                total += ristAr;
-            }
-            else if (coffeeDropdownMenu.Text == "Americano")
-            {
-                total += americanoAr;
-            }
-            else
-            {
-                total += teaAr;
-            }
-
             switch (sugarBar.Value)
             {
                 case 1:
