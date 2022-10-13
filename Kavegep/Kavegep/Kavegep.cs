@@ -23,6 +23,20 @@ namespace Kavegep
             priceTextBox.Text = total.ToString() + " Ft";
 
         }
+
+        private void milkCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (milkCheckBox.Checked)
+            {
+                total += tejAr;
+            }
+            else
+            {
+                total -= tejAr;
+            }
+            priceTextBox.Text = total.ToString() + " Ft";
+        }
+
         private void minusBtn_Click(object sender, EventArgs e)
         {
             sugarBar.Step = -1;

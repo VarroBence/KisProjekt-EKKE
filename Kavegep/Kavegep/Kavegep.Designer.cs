@@ -80,6 +80,7 @@
             this.milkCheckBox.Text = "Tej";
             this.milkCheckBox.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.milkCheckBox.UseVisualStyleBackColor = true;
+            this.milkCheckBox.CheckedChanged += new System.EventHandler(this.milkCheckBox_CheckedChanged);
             // 
             // label2
             // 
