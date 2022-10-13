@@ -116,8 +116,13 @@ namespace Kavegep
 
         private void payBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Egészégére!");
-            priceTextBox.Clear();
+            if (balance >= total)
+            {
+                MessageBox.Show("Egészégére!");
+                priceTextBox.Clear();
+            }
+            else
+                MessageBox.Show("Nincs megfelel? egyenleg!"); 
         }
     }
 }
