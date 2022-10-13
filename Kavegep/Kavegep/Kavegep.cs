@@ -100,12 +100,17 @@
         }
         private void depositBtn_Click(object sender, EventArgs e)
         {
+
             try
             {
-                balance += int.Parse(depositTextBox.Text);
+                balance += (int)uint.Parse(depositTextBox.Text);
                 balanceTextBox.Text = balance.ToString() + " Ft";
             }
-            catch (Exception)
+            catch (OverflowException)
+            {
+                MessageBox.Show("A szám túl alacsony (vagy túl magas)");
+            }
+            catch (FormatException)
             {
                 MessageBox.Show("Csak egész számot adhat meg!");
             }
