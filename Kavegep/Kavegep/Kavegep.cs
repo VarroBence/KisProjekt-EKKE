@@ -3,7 +3,7 @@ namespace Kavegep
     public partial class Kavegep : Form
     {
         #region Árak fixálása
-        private int balance = 0; //Nem tudom hogy ez korrekt e így
+        private int balance = 0;
         private int total = 0;
         private int elozoAr = 0;
         private int pressoAr = 250;
@@ -116,31 +116,7 @@ namespace Kavegep
 
         private void payBtn_Click(object sender, EventArgs e)
         {
-            switch (sugarBar.Value)
-            {
-                case 1:
-                    total += 50;
-                    break;
-
-                case 2:
-                    total += 75;
-                    break;
-
-                case 3:
-                    total += 100;
-                    break;
-
-                case 4:
-                    total += 125;
-                    break;
-
-                default:
-                    break;
-            }
-
-
-            priceTextBox.Text = total.ToString() + " Ft";
-            MessageBox.Show("A végösszeg: " + priceTextBox.Text);
+            MessageBox.Show("Egészégére!");
             priceTextBox.Clear();
         }
     }
