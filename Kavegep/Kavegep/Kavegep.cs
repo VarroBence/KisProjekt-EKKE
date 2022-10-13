@@ -13,6 +13,7 @@ namespace Kavegep
         private int teaAr = 150;
         private int tejAr = 50;
         private int cukorAr = 10;
+        private bool sugarBarMaxed = false;
         #endregion
 
         public Kavegep()
@@ -73,10 +74,10 @@ namespace Kavegep
 
         private void minusBtn_Click(object sender, EventArgs e)
         {
-
+            sugarBarMaxed = false;
             sugarBar.Step = -1;
             sugarBar.PerformStep();
-            if (total > 0)
+            if (sugarBar.Value >= sugarBar.Maximum / 2)
             {
                 total -= cukorAr;
                 priceTextBox.Text = total.ToString() + " Ft";
@@ -87,8 +88,15 @@ namespace Kavegep
         {
             sugarBar.Step = 1;
             sugarBar.PerformStep();
-            total += cukorAr;
-            priceTextBox.Text = total.ToString() + " Ft";
+            if (sugarBar.Value > sugarBar.Maximum / 2 && !sugarBarMaxed)
+            {
+                total += cukorAr;
+                priceTextBox.Text = total.ToString() + " Ft";
+            }
+            if (sugarBar.Value == sugarBar.Maximum)
+            {
+                sugarBarMaxed = true;
+            }
         }
         private void depositBtn_Click(object sender, EventArgs e)
         {
