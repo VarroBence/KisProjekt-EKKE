@@ -20,6 +20,10 @@ Felhasználó: A felhasználó fel tudja tölteni az elektronikus tárcáját, �
 
 ## 7. Képernyőterv
 ![Képernyőterv](Screenshot01.png)
+<br>V2<br>
+
+![image](https://user-images.githubusercontent.com/103049058/195596884-57bd0ced-ec68-4aa2-9574-74c879c4d68c.png)
+
 
 ## 8. Forgatókönyv
 Futási időben kettő szereplő figyelhető meg.
