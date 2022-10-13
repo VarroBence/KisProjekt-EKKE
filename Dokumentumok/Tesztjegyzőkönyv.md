@@ -4,7 +4,7 @@
  | Helyes adat megadása    | Megtörténik a művelet.                                                                                              | 
  | ... | ... | 
 
-#### Ezeket a teszteseteket végrehalyatani a legtöbb kombinációval
+#### Ezeket a teszteseteket végrehajtani a legtöbb kombinációval
 
 
 **Tesztelő:** Varró Bence
