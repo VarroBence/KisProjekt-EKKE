@@ -73,10 +73,14 @@ namespace Kavegep
 
         private void minusBtn_Click(object sender, EventArgs e)
         {
+
             sugarBar.Step = -1;
             sugarBar.PerformStep();
-            total -= cukorAr;
-            priceTextBox.Text = total.ToString() + " Ft";
+            if (total > 0)
+            {
+                total -= cukorAr;
+                priceTextBox.Text = total.ToString() + " Ft";
+            }
         }
 
         private void plusBtn_Click(object sender, EventArgs e)
