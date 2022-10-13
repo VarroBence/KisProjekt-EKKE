@@ -69,6 +69,7 @@
             this.coffeeDropdownMenu.Name = "coffeeDropdownMenu";
             this.coffeeDropdownMenu.Size = new System.Drawing.Size(219, 28);
             this.coffeeDropdownMenu.TabIndex = 1;
+            this.coffeeDropdownMenu.SelectionChangeCommitted += new System.EventHandler(this.coffeeDropdownMenu_SelectionChangeCommitted);
             // 
             // milkCheckBox
             // 

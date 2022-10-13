@@ -5,6 +5,7 @@ namespace Kavegep
         #region Árak fixálása
         private int balance = 0; //Nem tudom hogy ez korrekt e így
         private int total = 0;
+        private int elozoAr = 0;
         private int pressoAr = 250;
         private int hosszuKaveAr = 300;
         private int ristAr = 200;
@@ -22,6 +23,36 @@ namespace Kavegep
             balanceTextBox.Text = balance.ToString() + " Ft"; //Ha változtatod a balance-ot rakj egy ilyet utána
             priceTextBox.Text = total.ToString() + " Ft";
 
+        }
+
+        private void coffeeDropdownMenu_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            
+
+            if (coffeeDropdownMenu.Text == "Presso Kávé")
+            {
+                total += pressoAr;
+                
+            }
+            else if (coffeeDropdownMenu.Text == "Hosszú Kávé")
+            {
+                total += hosszuKaveAr;
+                
+            }
+            else if (coffeeDropdownMenu.Text == "Ristretto")
+            {
+                total += ristAr;
+
+            }
+            else if (coffeeDropdownMenu.Text == "Americano")
+            {
+                total += americanoAr;
+            }
+            else
+            {
+                total += teaAr;
+            }
+            priceTextBox.Text = total.ToString() + " Ft";
         }
 
         private void milkCheckBox_CheckedChanged(object sender, EventArgs e)
@@ -86,11 +117,6 @@ namespace Kavegep
             else
             {
                 total += teaAr;
-            }
-
-            if (milkCheckBox.Checked)
-            {
-                total += tejAr;
             }
 
             switch (sugarBar.Value)
